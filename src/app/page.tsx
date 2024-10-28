@@ -23,6 +23,7 @@ export default function Home() {
 					</h3>
 					<p>Ваш ИД:{app.initDataUnsafe.user?.id}</p>
 					<p>{app.initDataUnsafe.user?.username}</p>
+					<p>{app.initDataUnsafe.user?.photo_url}</p>
 				</div>
 			) : (
 				"loading"
